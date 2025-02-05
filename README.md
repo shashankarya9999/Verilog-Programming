@@ -9,5 +9,5 @@ To compile and run Verilog modules using ICARUS,
 `iverilog -o example example.v example_tb.v`
 4) Run the compiled output file using vvp command <br>
 `vvp example`
-5) To show the waveform, type the following command along with the dump file example.vcd
+5) To show the waveform, type the following command along with the dump file example.vcd <br>
 `gtkwave example.vcd`
