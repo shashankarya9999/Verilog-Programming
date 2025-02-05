@@ -1,4 +1,4 @@
-# Verilog-Programming
+# Verilog Programming
 
 NOTE: I will be using Xilinx Vivado ML Edition 2024.2 version for analysis and synthesis of digital designs. If this large software cannot be installed on the local machine, then there is also an option utilizing icarus verilog and GTKwave. On my computer, I have installed these two softwares on Ubuntu 22.04.05 LTS.  
 
