@@ -1,6 +1,6 @@
 # Verilog Programming
 
-NOTE: I will be using Xilinx Vivado ML Edition 2024.2 version for analysis and synthesis of digital designs. If this large software cannot be installed on the local machine, then there is also an option utilizing icarus verilog and GTKwave. On my computer, I have installed these two softwares on Ubuntu 22.04.05 LTS.  
+NOTE: I will be using Xilinx Vivado ML Edition 2024.2 version for analysis and synthesis of digital designs. But if this large software cannot be installed on the local machine, then there is also an option utilizing icarus verilog and GTKwave. I have installed these two softwares on Ubuntu 22.04.05 LTS.  
 
 To compile and run Verilog modules using ICARUS,
 1) Write Verilog module using any code editor(I use Vim or VScode) and save as example.v
