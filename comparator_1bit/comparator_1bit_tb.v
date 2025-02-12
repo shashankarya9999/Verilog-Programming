@@ -1,5 +1,6 @@
 //`timescale 1ns/100ps
 module testbench;
+    
     reg [1:0] x,y;
     wire z;
     comparator_1bit DUT(.x(x),.y(y),.z(z));
@@ -14,4 +15,5 @@ module testbench;
     initial begin
         $monitor("t=%d, x=%d, y=%d, z=%d", $time, x,y,z);
     end
+    
 endmodule
