@@ -13,7 +13,8 @@ module add_8bit_tb;
             repeat(5)
                 begin
                     a=$random(seed);
-                    b=$random(seed); #10;
+                    b=$random(seed); 
+                    #10;
                     $display("t=%0d, a=%h, b=%h, sum=%h",$time,a,b,sum);
                 end
         end
