@@ -12,8 +12,6 @@ module testbench;
     end
 
     initial begin
-    
         $monitor("t=%d, x=%d, y=%d, z=%d", $time, x,y,z);
-    
     end
 endmodule
