@@ -8,8 +8,9 @@ module decoder_3_to_8_tb;
     initial begin
         $dumpfile("decoder.vcd");
         $dumpvars(0,decoder_3_to_8_tb);
-        x=0; y=0; z=0; en=0;
-        #10 x=0; y=1; z=0; en=0;
+        x=x; y=x; z=x; en=0;
+        #10 x=x; y=x; z=x; en=1;
+        #10 x=0; y=0; z=0; en=0;
         #10 x=0; y=0; z=0; en=1;
         #10 x=0; y=0; z=1; en=1;
         #10 x=0; y=1; z=0; en=1;
