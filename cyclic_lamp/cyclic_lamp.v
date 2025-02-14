@@ -1,5 +1,7 @@
 module cyclic_lamp(clock,light);
 
+    // Moore Machine
+
     input clock;
     output reg [0:2] light;
     parameter s0=0, s1=1, s2=2;
