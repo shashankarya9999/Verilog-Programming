@@ -23,7 +23,8 @@ module decoder_3_to_8_tb;
     end
 
     initial begin
-        $monitor("t=%3d, x=%d, y=%d, z=%d, en=%d, w[0]=%d, w[1]=%d, w[2]=%d, w[3]=%d, w[4]=%d, w[5]=%d, w[6]=%d, w[7]=%d", $time, x,y,z,en,w[0],w[1],w[2],w[3],w[4],w[5],w[6],w[7]);
+        $monitor("t=%3d, x=%d, y=%d, z=%d, en=%d, w[0]=%d, w[1]=%d, w[2]=%d, w[3]=%d, w[4]=%d, w[5]=%d, w[6]=%d, w[7]=%d", 
+        $time,x,y,z,en,w[0],w[1],w[2],w[3],w[4],w[5],w[6],w[7]);
     end
 
 endmodule
